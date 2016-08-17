@@ -26,7 +26,7 @@ public class SimpleSigner {
         MessageDigest md5 = null;
         try {
             md5 = MessageDigest.getInstance("MD5");
-            md5.update("admaster54322".getBytes());
+            md5.update("xxx".getBytes());
         } catch (Exception e) {
             System.out.println(e.toString());
             e.printStackTrace();
